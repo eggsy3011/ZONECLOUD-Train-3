@@ -1,8 +1,26 @@
 # SSL
 
-# SSL là gì ? - 
+# SSL là gì ? 
+
+-SSL được viết tắt từ Secure Sockets Layer, đây là một tiêu chuẩn của công nghệ bảo mật, truyền thông mã hóa giữa trình duyệt và máy chủ web server. SSL hoạt động và đảm bảo rằng những dữ liệu được truyền tải giữa máy chủ và trình duyệt của bạn đều được toàn vẹn, riêng tư và bảo mật.
 
 # Có bao nhiêu cách chứng thực SSL ?
+
+# Single Name SSL Certificate
+
+Đối với SSL này sẽ chỉ có 1 tên miền được bảo đảm.
+
+# Chứng chỉ Wildcard SSL
+
+Đối với chứng chỉ này sẽ đảm bảo sự không giới hạn các sub-domain( các tên miền phụ) và một tên miền duy nhất.
+
+# Chứng Chỉ SSL Multi-domain
+
+Một chứng Chỉ SSL Multi-domain hỗ trợ tất cả các loại tên miền và subdomain khác nhau. SSL Multi domain được đề xuất cho những người có nhiều tên miền và subdomain.
+
+# Chứng Chỉ Unified Communications (UCC)
+
+UCCs cho phép khách hàng bảo vệ lên đến 100 tên miền bằng cách sử dụng cùng một chứng chỉ. Chứng Chỉ UCC được thiết kế đặc biệt để bảo đảm Microsoft Exchange và các Office Communication Server.
 
 # CSR file dùng làm gì trong quá trình tạo SSL
 
