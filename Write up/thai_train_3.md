@@ -266,7 +266,7 @@ Tệp nhật ký (roundcube)
 
 -Khi người dùng muốn truy cập vào một website, hay kiểm tra email, hay bất kỳ một tác vụ nào liên quan đến tên miền, sẽ có vài công đoạn kết nối:
 
-    Máy tính sẽ gửi một câu lệnh phân giải tên miền, DNS query, để tìm máy chủ cần thiết. Câu lệnh này được gửi đến cấu hình phân giải tên miền, DNS resolver ở máy tính người dùng, hoặc ISP cung cấp dịch vụ Internet cho người     dùng.
+    Máy tính sẽ gửi một câu lệnh phân giải tên miền, DNS query, để tìm máy chủ cần thiết. Câu lệnh này được gửi đến cấu hình phân giải tên miền, DNS resolver ở máy tính người dùng, hoặc ISP cung cấp dịch vụ Internet cho ngườ dùng.
     
     Các máy chủ DNS resolver này hoặc kiểm tra mới, hoặc tìm trong cache lưu trữ name server của tên miền, và sẽ gửi chuyển tiếp câu lệnh phân giải tên miền đến các máy chủ chứa các bản ghi DNS của tên miền.
     
