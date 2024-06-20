@@ -1,6 +1,6 @@
 SSL
 
-SSL là gì ?
+SSL là gì ? - 
 
 Có bao nhiêu cách chứng thực SSL ?
 
@@ -9,30 +9,36 @@ CSR file dùng làm gì trong quá trình tạo SSL
 Sử dụng OpenSSL để gen file CSR sau đó request SSL cho domain <name>.techtraining.zonecloud.tech
 
 
-1. Kiểm tra OpenSSL
+# 1. Kiểm tra OpenSSL
 
 Trước khi thực hiện việc khởi tạo CSR chúng ta cần phải kiểm tra OpenSSL đã được cài đặt trên máy chủ của mình chưa
-
+```
 openssl version
+```
 
-Tiến hành tạo private key và CSR
+![image](https://github.com/eggsy3011/ZONECLOUD-Train-3/assets/108015833/45deba28-bd1a-4a04-b7a7-7f61d5877160)
+
+
+# 2. Tiến hành tạo private key và CSR
 
 Khởi tạo file private key
-
+```
 mkdir thai.techtraining.zonecloud.tech
-
+```
+```
 cd thai.techtraining.zonecloud.tech
-
+```
+```
 openssl genrsa -out thai.techtraining.zonecloud.tech.key 2048
+```
+![image](https://github.com/eggsy3011/ZONECLOUD-Train-3/assets/108015833/54dfbd5a-95aa-4b7d-bee9-6fb83ad38893)
 
 
-![image](https://github.com/eggsy3011/ZONECLOUD-Train-3/assets/108015833/14ddeeae-8f91-4d7e-8965-0e3cb21b3adf)
 
-
-Khởi tạo CSR với input private key vừa tạo
-
+# 3. Khởi tạo CSR với input private key vừa tạo
+```
 openssl req -new -key thai.techtraining.zonecloud.tech.key -out  thai.techtraining.zonecloud.tech.csr
-
+```
 
 ![image](https://github.com/eggsy3011/ZONECLOUD-Train-3/assets/108015833/7922287d-ba23-4a77-a374-47d32e79f4d5)
 
