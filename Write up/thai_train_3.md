@@ -26,11 +26,24 @@ cd thai.techtraining.zonecloud.tech
 openssl genrsa -out thai.techtraining.zonecloud.tech.key 2048
 
 
+![image](https://github.com/eggsy3011/ZONECLOUD-Train-3/assets/108015833/14ddeeae-8f91-4d7e-8965-0e3cb21b3adf)
 
 
 Khởi tạo CSR với input private key vừa tạo
 
 openssl req -new -key thai.techtraining.zonecloud.tech.key -out  thai.techtraining.zonecloud.tech.csr
+
+
+![image](https://github.com/eggsy3011/ZONECLOUD-Train-3/assets/108015833/7922287d-ba23-4a77-a374-47d32e79f4d5)
+
+
+    Country Name (2 letter code) []: Mã quốc gia theo chuẩn ISO 3166-1 alpha-2 (2 ký tự : VN, UK, US)
+    State or Province Name (full name) []: Tên tỉnh thành
+    Locality Name (eg, city) []: Tên thành phố/quận huyện
+    Organization Name (eg, company) []: Tên công ty, doanh nghiệp
+    Organizational Unit Name (eg, section) []: Lĩnh vực hoạt động
+    Common Name (eg, fully qualified host name) []: Domain của website cần chứng thực ( Ví dụ: vietnix.cloud )
+    Email Address []: Địa chỉ Email
 
 
 Pem file là gì ?
