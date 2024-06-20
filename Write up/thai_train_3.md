@@ -6,6 +6,15 @@
 
 # Có bao nhiêu cách chứng thực SSL ?
 
+
+
+    Chứng chỉ xác thực miền (Domain Validation - DV): Đây là loại chứng chỉ phổ biến nhất. Quá trình xác thực tên miền đảm bảo quyền sở hữu tên miền và thường được sử dụng để bảo vệ các trang web cá nhân hoặc doanh nghiệp nhỏ.
+    
+    Chứng chỉ xác thực mở rộng (Extended Validation - EV): Đây là chứng chỉ có mức mã hóa, xác thực và độ tin cậy cao nhất. Tổ chức hoặc chủ sở hữu web phải trải qua quy trình kiểm tra nghiêm ngặt của cơ quan cấp chứng chỉ để nhận chứng chỉ EV SSL/TLS.
+
+    Chứng chỉ xác thực tổ chức (Organization Validation - OV): Loại chứng chỉ này xác minh danh tính của tổ chức và thường được sử dụng cho các trang web doanh nghiệp.
+
+
 # Single Name SSL Certificate
 
 Đối với SSL này sẽ chỉ có 1 tên miền được bảo đảm.
@@ -23,6 +32,8 @@ Một chứng Chỉ SSL Multi-domain hỗ trợ tất cả các loại tên mi�
 UCCs cho phép khách hàng bảo vệ lên đến 100 tên miền bằng cách sử dụng cùng một chứng chỉ. Chứng Chỉ UCC được thiết kế đặc biệt để bảo đảm Microsoft Exchange và các Office Communication Server.
 
 # CSR file dùng làm gì trong quá trình tạo SSL
+-CSR (Certificate Signing Request) là một tệp chứa thông tin cần thiết để xác thực và cấp chứng chỉ SSL. Khi bạn muốn tạo chứng chỉ SSL, bạn cần tạo một CSR và gửi nó đến Certificate Authority (CA) để ký.
+
 
 # Sử dụng OpenSSL để gen file CSR sau đó request SSL cho domain <name>.techtraining.zonecloud.tech
 
